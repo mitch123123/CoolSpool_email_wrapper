@@ -1,0 +1,35 @@
+      *
+      * femailer- params for pemailer
+
+      *
+     A                                      UNIQUE
+     A          R IEMAILER
+
+      *
+     A            EID           10          TEXT('PROGRAM ID')
+     A            EVERS         10          TEXT('Version ID')
+     A            EEMAIL        50          TEXT('EMAIL OR EMAIL LIST')
+      *VALID CONVERSION TYPES :EXCEL, CSV, PDF, HTML,
+     A            ECTYPE        10          TEXT('CONVERSION TYPE')
+      *VALID FILE TYPES:SQL,SQLSRC, DBF, SPOOL
+     A            EFTYPE        10          TEXT('FILE TYPE')
+      *blank if sql is the file type
+     A            EFILE         10          TEXT('FILE NAME')
+      *blank if sql is the file type
+     A            EMEMBER       10          TEXT('FILE MEMBER')
+      *blank if sql is the file type
+     A            ELIB          10          TEXT('LIBRARY OR *LIBL')
+      *blank if not using spool as file
+     A            ESPLNUM       10          TEXT('SPOOL NUMBER OR *LAST')
+     A            ESTMF        100          TEXT('STREAM FILE PATH')
+     A            ESUBJECT     100          TEXT('SUBJECT LINE')
+     A            EOVERLAY      50          TEXT('OVERLAY PATH')
+     A            EMESSAGE     250          TEXT('EMAIL MESSAGE')
+     A            EEMAILOPT    150          TEXT('EMAIL OPTIONS')
+     A            ESQL         250          TEXT('SQL STRING')
+     A            ECREATEDT       L         TEXT('CREATED DATE')
+     A                                      DATFMT(*USA) DFT('01/01/0001')
+     A            EMODDATE        L         TEXT('MODIFIED DATE')
+     A                                      DATFMT(*USA) DFT('01/01/0001')
+     A          K EID
+     A          K EVERS
