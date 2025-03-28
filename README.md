@@ -8,4 +8,4 @@ we then would setup femailer with the following parameters
 then we would call pemailer with the following key parms
 Call Pemailer Parm('TESTPGM' 'V1')
 and this is the result
-3![image](https://github.com/user-attachments/assets/a7daa462-e92a-4ffa-84be-5b57c94cc3a5)
+3![image](https://github.com/user-attachments/assets/b2959642-d97b-40f0-a96c-f3e2a9e1d7ca)
