@@ -7,3 +7,5 @@ we then would setup femailer with the following parameters
 ![alt text](image-1.png)
 then we would call pemailer with the following key parms
 Call Pemailer Parm('TESTPGM' 'V1')
+and this is the result
+3![image](https://github.com/user-attachments/assets/a7daa462-e92a-4ffa-84be-5b57c94cc3a5)
